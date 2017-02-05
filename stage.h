@@ -2,7 +2,7 @@
 #define STAGE_H
 
 // Ticks: MUST BE COPRIME OF THE OPERATE_TICK
-// Tick°ª: OPERATE_TICK°ú ¼­·Î¼Ò°¡ µÇ´Â ¼ö·Î ¼³Á¤ÇÒ °Í 
+// Tickê°’: OPERATE_TICKê³¼ ì„œë¡œì†Œê°€ ë˜ëŠ” ìˆ˜ë¡œ ì„¤ì •í•  ê²ƒ 
 #define TICK_EASY   659
 #define TICK_NORMAL 419
 #define TICK_HARD   277
@@ -16,20 +16,20 @@ int difficulty[] = {TICK_EASY, TICK_NORMAL, TICK_HARD};
 
 typedef struct {
 	// in milliseconds. lower == faster == harder
-	// must get smaller as the game progresses.
-	// ¹Ğ¸®ÃÊ ´ÜÀ§. ³·À»¼ö·Ï »¡¶óÁö°í ¾î·Á¿öÁü.
+	// must get smaller as the game progresses. // ADDENDUM: apparently it was not implemented. -- Torvald on 2017-02-06
+	// ë°€ë¦¬ì´ˆ ë‹¨ìœ„. ë‚®ì„ìˆ˜ë¡ ë¹¨ë¼ì§€ê³  ì–´ë ¤ì›Œì§.
 	int game_tick;
 	// which conveyer is now open
 	// 0: closed, 1: left, 2: right
-	// ¾î´À ÂÊ ÄÁº£ÀÌ¾î°¡ ¿­·Á ÀÖ³ª
-	// 0: ´İÈû, 1: ÁÂ, 2: ¿ì
+	// ì–´ëŠ ìª½ ì»¨ë² ì´ì–´ê°€ ì—´ë ¤ ìˆë‚˜
+	// 0: ë‹«í˜, 1: ì¢Œ, 2: ìš°
 	int conveyer_active_position;
 	
 	int difficulty; //0: Easy, 1: Normal, 2: Hard
 } Stage;
 
-// »õ ½ºÅ×ÀÌÁö
-// d: difficulty code ³­ÀÌµµ ÄÚµå
+// ìƒˆ ìŠ¤í…Œì´ì§€
+// d: difficulty code ë‚œì´ë„ ì½”ë“œ
 //    0: EASY, 1: NORMAL, 2: HARD 
 Stage stage_new(int d) {
 	Stage s;
