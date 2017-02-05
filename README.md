@@ -7,8 +7,8 @@ manually control the thing so that the production line would not stall!
 
 This minigame is a game where you control the cart to catch the falling blocks and
 dump them into one of the two conveyors located on left and right end of the track.
-Blocks are falling from three ports on the ceiling. Can you keep the production keep
-going without fail?
+Blocks are falling from three ports on the ceiling. Can you keep the production
+running without fail?
 
 
 ## How to play
@@ -28,4 +28,4 @@ You can make up to two mistakes. If you screw up three times, you are fired!
 ### Some rants about my univ
 
 Yes, we teach C as 101, and we don't have any lecture that teaches you Python. ~~pretty shitty, eh?~~
-On the contrary, we're actually asked to make a minigame as an assignment. ~~pretty cool, eh?~~
+On the contrary, yes, we've actually asked to make a minigame as an assignment. ~~pretty cool, eh?~~
