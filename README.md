@@ -13,6 +13,8 @@ going without fail?
 
 ## How to play
 
+- Up/Down: Choose difficulty on the title screen
+- Enter: Set difficulty and play the game
 - Left/Right: Control the cart
 - Three rooms on your cart, three lives
 
