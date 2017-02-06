@@ -27,5 +27,5 @@ You can make up to two mistakes. If you screw up three times, you are fired!
 
 ### Some rants about my univ
 
-Yes, we teach C as 101, and we don't have any lecture that teaches you Python. ~~pretty shitty, eh?~~
+Yes, we are taught C as 101, and we don't have any Python lecture. ~~pretty shitty, eh?~~
 On the contrary, yes, we've actually asked to make a minigame as an assignment. ~~pretty cool, eh?~~
